@@ -37,12 +37,6 @@ The raw data collected from the accelerometer and gyroscope sensors typically ha
 
 3. **Output**: After normalization, the processed data is saved in the `data/processed_data/` folder in a CSV format. The normalized data is ready for use in model training.
 
-### Running the Normalization
-
-To normalize the raw data, run the following command:
-
-```bash
-python scripts/normalize_data.py
 
 ## Training the Model
 
