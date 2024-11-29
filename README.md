@@ -57,10 +57,11 @@ y = df['Gesture']  # Target (ensure it's encoded beforehand)
      - A couple of fully connected hidden layers with **ReLU** activation for non-linearity.
      - An output layer with **softmax** activation to predict the probability distribution of different gesture classes.
 
-3. ##Training:
+3. **Training**:
    - The model is trained using **sparse categorical cross-entropy loss** (since the labels are integer encoded) and the **Adam optimizer**.
+   - The training dataset is split into training and validation sets using **train_test_split** from `sklearn`.
 
-4. ##Model Evaluation**:
+4. **Model Evaluation**:
    - After training, the model is evaluated on the validation set to check its performance.
    - The accuracy score and loss are printed to the console, which helps to assess the model's performance.
 
