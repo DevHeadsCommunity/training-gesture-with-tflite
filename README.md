@@ -1,7 +1,29 @@
-# Hand Gesture Recognition Using TensorFlow Lite
+
+# Traning Hand Gesture Recognition Using TensorFlow Lite
 
 This repository contains a project for hand gesture recognition using data from an accelerometer and gyroscope. The data is pre-processed, normalized, and used to train a model with TensorFlow. The trained model is then converted to TensorFlow Lite for deployment on embedded systems.
 
+## 📑 Table of Contents
+
+- [Project Structure](#project-structure)  
+- [Key Features](#key-features)  
+- [Use Cases](#use-cases)  
+- [Getting Started](#getting-started)  
+  - [Normalizing the Data](#normalizing-the-data)  
+  - [How Normalization Works in This Project](#how-normalization-works-in-this-project)  
+- [Training the Model](#training-the-model)  
+  - [How Training Works](#how-training-works)  
+  - [Data Loading](#data-loading)  
+  - [Model Architecture](#model-architecture)  
+  - [Training](#training)  
+  - [Model Evaluation](#model-evaluation)  
+  - [Saving the Model](#saving-the-model)  
+- [Converting the Model to TensorFlow Lite](#converting-the-model-to-tensorflow-lite)  
+  - [Conversion Process](#conversion-process)  
+  - [Optimization](#optimization)  
+  - [Saving the TFLite Model](#saving-the-tflite-model)
+
+---
 ## Project Structure
 
 - `data/`: Contains raw sensor data and the processed/normalized data.
